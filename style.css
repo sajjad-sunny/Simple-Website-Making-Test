@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.section-1{
+    background-image: linear-gradient(90deg, rgb(2, 1, 34) 0%, rgba(5, 5, 83, 0.152) 35%, rgba(0,212,255,1) 180%), url(images/donation1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.section-1 h1{
+    color: white;
+    font-size: 70px;
+    text-align: center;
+    padding: 180px 50px 5px 50px;
+}
+.section-1 p{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.btn-1{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 12px 20px;
+    margin: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(226, 88, 64);
+    margin-left: 45%;
+}
+.btn-1:hover{
+    box-shadow: 5px 5px 10px black;
+    transition: all ease 0.5s;
+}
+.section-2 h1{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    padding: 80px 50px 5px 80px;
+}
+.section-2 p{
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.donation-amount {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.donation-amount li {
+    font-size: 25px;
+    font-weight: 1000;
+    margin: 15px 15px;
+    padding: 30px 20px;
+    color: rgb(109, 105, 105);
+    border: none;
+    cursor: pointer;
+}
+#highlighted-amount{
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+.amount {
+    margin: 50px 150px;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.amount input {
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding-left: 390px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.btn-2{
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 12px 20px;
+    margin: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(226, 88, 64);
+    margin-left: 43%;
+    margin-top: -5%;
+}   
+
+.btn-2:hover{
+    box-shadow: 5px 5px 10px black;
+    transition: all ease 0.5s;
+}
+.section-3 h1{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    padding: 95px 80px 20px 95px ;
+}
+.section-3 p{
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 250px 10px 250px ;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px ;
+    border-radius: 10px;
+}
+.card-1{
+    background-color: antiquewhite;
+    margin: 2% 2%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-1 img{
+    padding: 10px 10px;
+
+}
+.card-1 h2{
+    margin-bottom: 10px;
+}
+
+.card-2{
+    background-color: rgb(230, 217, 217);
+    margin: 2% 2%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-2 img{
+    padding: 10px 10px;
+
+}
+.card-2 h2{
+    margin-bottom: 10px;
+}
+.card-3{
+    background-color: rgb(243, 224, 192);
+    margin: 2% 2%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-3 img{
+    padding: 10px 10px;
+
+}
+.card-3 h2{
+    margin-bottom: 10px;
+}
+.gallery-bio{
+    margin: 2px 2px;
+}
+.gallery-bio h1{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    padding: 50px 80px 20px 50px ;
+}
+.gallery-bio p{
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px 250px 10px 250px ;
+}
+.gallery-card{
+    display: flex;
+    margin: 2% 5%;
+    border-radius: 10px;
+}
+.gallery-card-1{
+    background-color: rgb(164, 209, 192);
+    margin: 2% 2%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.gallery-card-1 img{
+    padding: 10px 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(8, 0, 0);
+
+}
+.gallery-card-1 h2{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.gallery-card-1 h3{
+    text-align: center;
+}
+
+.gallery-card-2{
+    background-color: rgb(197, 193, 219);
+    margin: 2% 2%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.gallery-card-2 img{
+    padding: 10px 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(8, 0, 0);
+
+}
+.gallery-card-2 h2{
+    margin-bottom: 5px;
+    text-align: center;
+}
+.gallery-card-2 h3{
+    text-align: center;
+}
+.gallery-card-3{
+    background-color: rgb(202, 189, 167);
+    margin: 2% 2%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+.gallery-card-3 img{
+    padding: 10px 10px;
+    height: 300px;
+    width: 300px;
+    border: 1px solid rgb(8, 0, 0);
+
+}
+.gallery-card-3 h2{
+    margin-bottom: px;
+    text-align: center;
+}
+.gallery-card-3 h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+
+.update-section h1{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    padding: 80px 50px 5px 80px;
+}
+.update-section p{
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.subcribe-btn{
+    background-color: wheat;
+    padding: 50px;
+    position: relative;
+    margin-left: 490px;
+    margin-right: 480px;
+    margin-bottom: 200px;
+    top:70px;
+
+}
+.subcribe-btn input {
+    outline: none;
+    border: none;
+    font-size: medium;
+}
+.subscribe-button{
+    color: brown;
+    border: none;
+    font-size: medium;
+
+}
+
+footer{
+    background-color: rgb(165, 42, 155);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
